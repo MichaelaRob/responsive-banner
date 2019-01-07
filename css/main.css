@@ -4,7 +4,7 @@ html {
 }
 
 .bg {
-  max-height: 500px;
+  background-color: #495562;
 }
 
 .btn {
@@ -13,19 +13,22 @@ html {
   color: #fff;
 }
 
-.image {
+.content {
   background-image: linear-gradient(to bottom,rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
   background-size: cover;
 }
 
-.content {
-  background-color: #495562;
-}
 
 @media only screen and (min-width: 60em) {
 
-  .image {
+  .content {
     bottom: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  .bg {
+    max-height: 500px;
   }
 
 }
