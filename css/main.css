@@ -14,4 +14,9 @@ img {
 .btn {
   border-color: #97a49b;
   background-color: #495562;
+  color: #fff;
+}
+
+.image {
+  background: linear-gradient (to top,rgba(73, 85, 98, .9);
 }
